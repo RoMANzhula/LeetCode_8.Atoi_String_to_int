@@ -4,7 +4,7 @@ public class Main {
         System.out.println(myAtoi(str));
     }
 
-    public static int myAtoi(String s) {
+    public static int myAtoi(String s) { //метод, который преобразовывает(конвертирует) строку в число с учетом знака + или -
         s = s.trim(); //с помощью метода trim() удаляем все пробелы в начале и в конце строки
         if (s.isEmpty()) { //если строка пустая
             return 0; //возвращаем ноль
